@@ -33,6 +33,7 @@ dependencies = [
  "serde",
  "serde-dynamic",
  "serde_json",
+ "serde_json-dynamic",
 ]
 
 [[package]]
@@ -77,6 +78,13 @@ dependencies = [
  "itoa",
  "ryu",
  "serde",
+]
+
+[[package]]
+name = "serde_json-dynamic"
+version = "0.1.0"
+dependencies = [
+ "serde_json",
 ]
 
 [[package]]

@@ -1,3 +1,8 @@
+#![allow(unused_imports)]
+
+#[cfg(feature = "dynamic")]
+use serde_json_dynamic;
+
 use rust_dylib_serde_issue::test_serde_json::Cat;
 
 fn main() {
