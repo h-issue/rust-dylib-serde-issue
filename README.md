@@ -9,9 +9,9 @@ cargo run  --features dynamic
 
 ### issue:
 
-serde dylib works, see this commit: efee4ba2c7cf6ed1e78e9ddd2b7edb596b6e3653
+serde dylib works, see this [commit](https://github.com/h-issue/rust-dylib-serde-issue/tree/efee4ba2c7cf6ed1e78e9ddd2b7edb596b6e3653)
 
-but serde_json dylib does not, see this commit: 644eebca125482d22dc4e87595dfc161716338d8
+but serde_json dylib does not, see this [commit](https://github.com/h-issue/rust-dylib-serde-issue/tree/644eebca125482d22dc4e87595dfc161716338d8)
 
 ```
 huahouye@adol13u:~/Documents/workspace-rust/dylib-test/rust-dylib-serde-issue$ cargo run --features dynamic
